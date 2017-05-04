@@ -1,0 +1,16 @@
+{
+    "name": "mitrio/php-whois",
+    "description": "Library for whois lookup and parse whois data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Meleshko",
+            "email": "dmitriy.meleshko@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": { "Mitrio\\PHPWhois": "src" }
+    }
+}
