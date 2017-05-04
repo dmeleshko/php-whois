@@ -10,7 +10,12 @@
         }
     ],
     "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
     "autoload": {
-        "psr-0": { "Mitrio\\PHPWhois": "src" }
+        "psr-4": {
+            "Mitrio\\PHPWhois\\": "src/"
+        }
     }
 }
